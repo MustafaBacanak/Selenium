@@ -23,7 +23,7 @@ public class C02_WebElementsAndLocators {
         driver.get("https://www.amazon.com.tr/");
 
         //Search bolumunu locate et
-        WebElement search =driver.findElement(By.id("twotabsearchtextbox")); //xpath'de kullanılabilir.
+        WebElement search =driver.findElement(By.id("twotabsearchtextbox"));
 
         //Search bolumunde "iphone ara", ve tıkla.
         search.sendKeys("İphone", Keys.ENTER);
