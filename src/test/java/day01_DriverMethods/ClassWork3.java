@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class ClassWork3 {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
      /*
          1. Yeni bir Class olusturalim.
