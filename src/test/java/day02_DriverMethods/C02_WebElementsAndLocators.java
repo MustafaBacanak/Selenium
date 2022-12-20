@@ -35,7 +35,7 @@ public class C02_WebElementsAndLocators {
             Genellikle id Attribute'u kullanilir. Sectigimiz attribute degerini findElement() method'u icine
             findElement(BY.id("attribute degeri")) seklinde yazariz.
  */
-        //Gidilen sitedeki inputTags sayısı
+        //Gidilen sitedeki input-tags sayısı
         List<WebElement> inputTags = driver.findElements(By.tagName("input"));
         System.out.println("Input tag sayısı = " + inputTags.size());
 
@@ -49,8 +49,6 @@ public class C02_WebElementsAndLocators {
         }
 
     }
-
-
 //    WebElement search=find("twotabsearchtextbox");
 //    public static WebElement find(String s){
 //        return driver.findElement(By.id(s));
